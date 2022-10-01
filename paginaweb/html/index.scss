@@ -6,7 +6,10 @@
 
 body {
 background-image: linear-gradient(#FFFFFF , #F9F6EE);
-
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+text-align: center;
 }
 
 .div-logo {
@@ -32,13 +35,11 @@ header {
   padding: 10px;
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
   float: left;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
@@ -48,25 +49,25 @@ header {
   text-decoration: none;
   font-size: 17px;
   transition: transform .1s;
+  margin-top: 3%
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   transform: scale(1.050);
   color: rgb(140, 0, 255);
 }
 
-/* Add an active class to highlight the current page */
 .topnav a.active {
-  font-size: 20px;
+  font-size: 25px;
   color: rgb(203, 0, 180);
+margin-top: 2%;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
 
 footer {
   text-align: center;
+margin-top: auto;
 }
