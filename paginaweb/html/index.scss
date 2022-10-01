@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+background-image: linear-gradient(#FFFFFF , #F9F6EE);
+
+}
+
+.div-logo {
+  float: right;
+  padding-right: 2%;
+}
+
+.logo {
+  transition: transform .2s;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+header {
+  text-align: center;
+}
+
+.contenido {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 36px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: transform .1s;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  transform: scale(1.050);
+  color: rgb(140, 0, 255);
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  font-size: 20px;
+  color: rgb(203, 0, 180);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+footer {
+  text-align: center;
+}
