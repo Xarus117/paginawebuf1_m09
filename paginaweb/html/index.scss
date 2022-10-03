@@ -5,11 +5,11 @@
 }
 
 body {
-background-image: linear-gradient(#FFFFFF , #F9F6EE);
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-text-align: center;
+  background-image: linear-gradient(#FFFFFF, #F9F6EE);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .div-logo {
@@ -34,6 +34,8 @@ header {
   margin-right: 10%;
   padding: 10px;
 }
+
+// BARRA DE NAVEGACIÓN
 
 .topnav {
   float: left;
@@ -60,11 +62,27 @@ header {
 .topnav a.active {
   font-size: 25px;
   color: rgb(203, 0, 180);
-margin-top: 2%;
+  margin-top: 2%;
 }
 
+.imagen_icono {
+  text-align: center;
+  margin-left: 45%;
+}
+
+.estado0 {
+  color: rgb(86, 86, 86);
+}
+
+.estado01 {
+  color: rgb(255, 178, 36);
+}
+
+.estado02 {
+  color: rgb(38, 238, 38);
+}
 
 footer {
   text-align: center;
-margin-top: auto;
+  margin-top: auto;
 }
