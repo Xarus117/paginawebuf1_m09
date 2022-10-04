@@ -30,6 +30,7 @@ header {
 }
 
 .contenido {
+  text-align: justify;
   margin-left: 10%;
   margin-right: 10%;
   padding: 10px;
@@ -81,6 +82,15 @@ header {
 .estado02 {
   color: rgb(38, 238, 38);
 }
+
+.a_empezar{
+  text-decoration: none;
+  color: rgb(140, 0, 255);
+  background-color: #ffffff;
+  padding: 0.5%;
+  border: solid black;
+}
+
 
 footer {
   text-align: center;
