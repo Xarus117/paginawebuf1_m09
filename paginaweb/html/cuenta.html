@@ -49,13 +49,14 @@
                       <label for="contrasena">Contraseña</label><br>
                       <input type="contrasena" class="form-control" id="contrasena" placeholder="Contraseña">
                     </div><br>
-                    <div class="form-check">
-                        <label for="nombre">Sexo:</label><br>
-                        <label for="nombre">Hombre</label>
-                        <input type="radio" name="sexo"><br>
-                        <label for="nombre">Mujer</label>
-                        <input type="radio" name="sexo"><br><br>
-                    </div>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-secondary">
+                          <input type="radio" name="options" id="option2" autocomplete="off"> Hombre
+                        </label>
+                        <label class="btn btn-secondary">
+                          <input type="radio" name="options" id="option3" autocomplete="off"> Mujer
+                        </label>
+                      </div><br><br>
                     <button type="submit" class="btn btn-primary">Enviar</button>
                   </form>
 
