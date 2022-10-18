@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 </head>
 <header>
     <div class="topnav" id="myTopnav">
@@ -34,20 +36,29 @@
 
             <img class="imagen_icono" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
                 alt="Imagen" width="100" height="100"><br>
+                <form action="">
+                    <div class="form-group">
+                      <label for="nombre">Nombre</label><br>
+                      <input type="text" class="form-control" id="nombre" placeholder="Nombre del usuario">              
+                    </div><br>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="nombre">Correo electrónico</label><br>
+                            <input type="email" class="form-control" id="email" placeholder="Correo electrónico">           
+                        </div><br>
+                      <label for="contrasena">Contraseña</label><br>
+                      <input type="contrasena" class="form-control" id="contrasena" placeholder="Contraseña">
+                    </div><br>
+                    <div class="form-check">
+                        <label for="nombre">Sexo:</label><br>
+                        <label for="nombre">Hombre</label>
+                        <input type="radio" name="sexo"><br>
+                        <label for="nombre">Mujer</label>
+                        <input type="radio" name="sexo"><br><br>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
 
-            <form action="">
-                <label for="nombre">Nombre:</label><br>
-                <input type="text" name="nombre"><br>
-                <label for="nombre">Email:</label><br>
-                <input type="email" name="correo"><br>
-                <label for="password">Contraseña:</label><br>
-                <input type="password" name="password"><br>
-                <label for="nombre">Sexo:</label><br>
-                <label for="nombre">Hombre</label>
-                <input type="radio" name="sexo"><br>
-                <label for="nombre">Mujer</label>
-                <input type="radio" name="sexo"><br><br>
-                <input type="submit" value="Guardar">
             </form>
         </div>
     </div>
