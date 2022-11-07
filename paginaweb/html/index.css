@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ * {
+	 font-family: 'Poppins', sans-serif;
+}
+ header {
+	 text-align: center;
+}
+ p {
+	 font-size: 20px;
+}
+ body {
+	 display: flex;
+	 flex-direction: column;
+	 text-align: justify;
+	 min-height: 100vh;
+}
+ .topnav {
+	 float: left;
+	 overflow: hidden;
+}
+ .topnav a {
+	 float: left;
+	 display: block;
+	 color: #000;
+	 text-align: center;
+	 padding: 14px 36px;
+	 text-decoration: none;
+	 font-size: 17px;
+	 transition: transform 0.1s;
+	 margin-top: 3%;
+}
+ .topnav a:hover {
+	 transform: scale(1.05);
+	 color: #8c00ff;
+}
+ .topnav a.active {
+	 font-size: 25px;
+	 color: #cb00b4;
+	 margin-top: 2%;
+}
+ .div-logo {
+	 float: right;
+	 padding-right: 2%;
+}
+ .logo {
+	 transition: transform 0.2s;
+}
+ .logo:hover {
+	 transform: scale(1.05);
+}
+ .contenido_principal {
+	 margin-left: 10%;
+	 margin-right: 10%;
+	 padding: 10px;
+}
+ .contenido_principal_cursos {
+	 margin-left: 10%;
+	 margin-right: 10%;
+	 padding: 10px;
+	 text-align: center;
+}
+ .contenido {
+	 margin-top: 5%;
+	 margin-bottom: 5%;
+	 margin-left: 30%;
+	 margin-right: 30%;
+	 padding: 5px;
+	 border-radius: 5px;
+	 box-shadow: 2px 2px 5px black;
+	 background-color: #8c00ff;
+}
+ .contenido_centrado {
+	 background-color: rgba(255, 255, 255, 0.8);
+	 padding: 50px;
+}
+ .grid-container {
+	 display: grid;
+	 grid-template-columns: auto auto auto;
+	 gap: 10px;
+	 background-color: #8c00ff;
+	 padding: 10px;
+	 margin-left: 10%;
+	 margin-right: 10%;
+}
+ .grid-container > div {
+	 background-color: rgba(255, 255, 255, 0.8);
+	 text-align: center;
+	 padding: 1%;
+	 font-size: 20px;
+}
+ .item1 {
+	 grid-column-start: 1;
+	 grid-column-end: 5;
+	 transition: transform 0.2s;
+}
+ .item1:hover {
+	 color: #646464;
+}
+ .estado0 {
+	 color: #565656;
+}
+ .estado01 {
+	 color: #ffb224;
+}
+ .estado02 {
+	 color: #26ee26;
+}
+ .a_empezar {
+	 text-decoration: none;
+	 color: #8c00ff;
+	 background-color: #fff;
+	 padding: 0.5%;
+	 border: solid black;
+}
+ .alerta {
+	 margin-left: 150px;
+	 margin-right: 150px;
+}
+ footer {
+	 text-align: center;
+	 margin-top: auto;
+}
+ 
